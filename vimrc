@@ -1,0 +1,16 @@
+syntax on
+set enc=utf-8
+set fileencoding=utf-8
+set ruler
+set shiftwidth=4
+set smartindent
+set autoindent
+set textmode
+set tabstop=4
+set textwidth=72
+set number
+set ai
+set si
+set expandtab
+set whichwrap=<,>,[,]
+set ff=unix
