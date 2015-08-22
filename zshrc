@@ -9,11 +9,11 @@ PS1="%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m %{$fg[white]%}%~%{$res
 
 alias cmpss="compass compile --sass-dir scss --css-dir css --output-style compressed --no-line-comments"
 
-alias mvim="/Applications/MacPorts/MacVim.app/Contents/MacOS/MacVim"
-
 venvwrap="virtualenvwrapper.sh"
 /usr/bin/which -s $venvwrap
 if [ $? -eq 0 ]; then
     venvwrap=`/usr/bin/which $venvwrap`
     source $venvwrap
 fi
+
+export WORKON_HOME=~/.virtualenvs
